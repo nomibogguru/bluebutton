@@ -1,0 +1,11 @@
+<?php
+// Generate a random ID for each button
+$button1_id = uniqid();
+$button2_id = uniqid();
+$button3_id = uniqid();
+
+// Output HTML for each button with its unique ID
+echo '<button id="' . $button1_id . '">Button 1</button>';
+echo '<button id="' . $button2_id . '">Button 2</button>';
+echo '<button id="' . $button3_id . '">Button 3</button>';
+?>
